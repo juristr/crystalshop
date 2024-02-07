@@ -12,7 +12,6 @@ if (!content.includes('PATCHED')) {
      for (const key of Object.keys(require.cache)) {
        delete require.cache[key];
      }
-     require('esbuild');
      const { resolveConfig } = await (0, _executorutils.loadViteDynamicImport)();`
   );
   fs.writeFileSync(file, updated);
