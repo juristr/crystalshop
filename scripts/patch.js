@@ -6,14 +6,7 @@ if (!content.includes('PATCHED')) {
   const updated = content.replace(
     `const { resolveConfig } = await (0, _executorutils.loadViteDynamicImport)();`,
     `// PATCHED - clear out CJS module cache
-     console.log('PATCHED plugin');
-     for (const key of Object.keys(require.cache)) {
-       if ((key.includes('esbuild') || key.includes('vite')) && !key.includes('@nx/')) {
-         console.log('deleting ' + key);
-         delete require.cache[key];
-       }
-     }
-     require('esbuild');
+     console.log('>>> patched plugin');
      await import('esbuild');
      const { resolveConfig } = await (0, _executorutils.loadViteDynamicImport)();`
   );
