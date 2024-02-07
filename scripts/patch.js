@@ -6,7 +6,7 @@ if (!content.includes('PATCHED')) {
   const updated = content.replace(
     `const { resolveConfig } = await (0, _executorutils.loadViteDynamicImport)();`,
     `// PATCHED - clear out CJS module cache
-     console.log('>>> patched plugin 123123');
+     console.log('>>> patched plugin 456');
      // await import('esbuild');
      const { resolveConfig } = await (0, _executorutils.loadViteDynamicImport)();`
   );
