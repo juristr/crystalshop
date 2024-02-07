@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('has title', async ({ page }) => {
+test('has title two', async ({ page }) => {
   await page.goto('/');
 
   // eslint-disable-next-line playwright/no-wait-for-timeout
