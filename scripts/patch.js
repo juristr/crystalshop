@@ -13,6 +13,8 @@ if (!content.includes('PATCHED')) {
          delete require.cache[key];
        }
      }
+     require('esbuild');
+     await import('esbuild');
      const { resolveConfig } = await (0, _executorutils.loadViteDynamicImport)();`
   );
   fs.writeFileSync(file, updated);
