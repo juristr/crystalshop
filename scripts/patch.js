@@ -10,7 +10,8 @@ if (!content.includes('PATCHED')) {
     `// PATCHED - clear out CJS module cache
      console.log('PATCHED plugin');
      for (const key of Object.keys(require.cache)) {
-       delete require.cache[key];
+       if (key.includes('esbuild'))
+         delete require.cache[key];
      }
      const { resolveConfig } = await (0, _executorutils.loadViteDynamicImport)();`
   );
