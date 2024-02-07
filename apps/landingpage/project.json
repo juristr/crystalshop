@@ -3,6 +3,12 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/landingpage",
   "projectType": "application",
-  "targets": {},
+  "targets": {
+    "start": {
+      "options": {
+        "args": ["--port", "3001"]
+      }
+    }
+  },
   "tags": []
 }
