@@ -1,6 +1,7 @@
 import styles from './page.module.css';
 
 export default async function Index() {
+  console.log('test');
   /*
    * Replace the elements below with your own.
    *
