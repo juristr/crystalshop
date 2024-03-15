@@ -26,11 +26,15 @@ export default defineConfig({
 
   build: {
     outDir: '../../dist/apps/admin',
-    reportCompressedSize: true,
-    commonjsOptions: {
-      transformMixedEsModules: true,
-    },
   },
+
+  // build: {
+  //   outDir: '../../dist/apps/admin',
+  //   reportCompressedSize: true,
+  //   commonjsOptions: {
+  //     transformMixedEsModules: true,
+  //   },
+  // },
 
   test: {
     globals: true,
