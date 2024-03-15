@@ -1,6 +1,9 @@
 import styles from './page.module.css';
 
+import { utils } from '@crystalshop/utils';
+
 export default async function Index() {
+  utils();
   /*
    * Replace the elements below with your own.
    *

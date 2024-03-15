@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
+import { utils } from '@crystalshop/utils';
+
 @Component({
   standalone: true,
   imports: [NxWelcomeComponent, RouterModule],
@@ -11,4 +13,8 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 })
 export class AppComponent {
   title = 'vendors';
+
+  constructor() {
+    utils();
+  }
 }
