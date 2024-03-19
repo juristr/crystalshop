@@ -1,9 +1,9 @@
 import styles from './page.module.css';
-import { utils } from '@crystalshop/utils';
+
+import { FeatProductList } from '@crystalshop/products/feat-product-list';
+import { FeatProductDetail } from '@crystalshop/products/feat-product-detail';
 
 export default async function Index() {
-  utils();
-  console.log('test');
   /*
    * Replace the elements below with your own.
    *
@@ -19,6 +19,9 @@ export default async function Index() {
               Welcome landingpage 👋
             </h1>
           </div>
+
+          <FeatProductList />
+          <FeatProductDetail />
 
           <div id="hero" className="rounded">
             <div className="text-container">
