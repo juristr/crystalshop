@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
-import { utils } from '@crystalshop/utils';
+import { utils } from '@crystalshop/shared/utils';
 
 @Component({
   standalone: true,
