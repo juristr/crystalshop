@@ -1,0 +1,8 @@
+{
+  "name": "feat-product-detail",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/products/feat-product-detail/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}

@@ -15,7 +15,38 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@crystalshop/utils": ["libs/utils/src/index.ts"]
+      "@crystalshop/buttons": ["libs/shared/ui/react/buttons/src/index.ts"],
+      "@crystalshop/data-access-order": [
+        "libs/orders/data-access-order/src/index.ts"
+      ],
+      "@crystalshop/feat-create-order": [
+        "libs/orders/feat-create-order/src/index.ts"
+      ],
+      "@crystalshop/feat-current-orders": [
+        "libs/orders/feat-current-orders/src/index.ts"
+      ],
+      "@crystalshop/feat-past-orders": [
+        "libs/orders/feat-past-orders/src/index.ts"
+      ],
+      "@crystalshop/feat-product-detail": [
+        "libs/products/feat-product-detail/src/index.ts"
+      ],
+      "@crystalshop/feat-product-list": [
+        "libs/products/feat-product-list/src/index.ts"
+      ],
+      "@crystalshop/form-controls": [
+        "libs/shared/ui/react/form-controls/src/index.ts"
+      ],
+      "@crystalshop/ngx-buttons": [
+        "libs/shared/ui/angular/buttons/src/index.ts"
+      ],
+      "@crystalshop/ngx-form-controls": [
+        "libs/shared/ui/angular/form-controls/src/index.ts"
+      ],
+      "@crystalshop/ui-order-detail": [
+        "libs/orders/ui-order-detail/src/index.ts"
+      ],
+      "@crystalshop/utils": ["libs/shared/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

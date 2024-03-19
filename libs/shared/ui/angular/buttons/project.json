@@ -1,0 +1,9 @@
+{
+  "name": "ngx-buttons",
+  "$schema": "../../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/ui/angular/buttons/src",
+  "prefix": "crystalshop",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}
