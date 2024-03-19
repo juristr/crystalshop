@@ -1,0 +1,8 @@
+{
+  "name": "form-controls",
+  "$schema": "../../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/ui/react/form-controls/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}

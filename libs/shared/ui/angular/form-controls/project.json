@@ -1,0 +1,9 @@
+{
+  "name": "ngx-form-controls",
+  "$schema": "../../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/ui/angular/form-controls/src",
+  "prefix": "crystalshop",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}

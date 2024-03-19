@@ -1,0 +1,8 @@
+{
+  "name": "ui-order-detail",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/orders/ui-order-detail/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}
